@@ -22,9 +22,10 @@ function getFares() {
     )
     .then(function(response) {
       console.log(response);
-      fare.innerHTML = `Fare: $${
+      fare.innerHTML = `<strong>Fare: $${
         response.data.root.trip.fare
-      } </br> Clipper Discount: $${response.data.root.trip.discount.clipper}`;
+      }</strong>`;
+      // </br> Clipper Discount: $${response.data.root.trip.discount.clipper}`;
     })
     .catch(console.log('error'));
 }
