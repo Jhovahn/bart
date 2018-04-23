@@ -12,3 +12,11 @@
   background: url('/img/Bart-logo.svg');
   height: 300px;
 }
+
+footer {
+  padding-top: 20px;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
