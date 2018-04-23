@@ -22,7 +22,7 @@ function getFares() {
     )
     .then(function(response) {
       console.log(response);
-      fare.innerHTML = `<strong>Fare: $${
+      fare.innerHTML = `<strong>Fare Estimate: $${
         response.data.root.trip.fare
       }</strong>`;
       // </br> Clipper Discount: $${response.data.root.trip.discount.clipper}`;
