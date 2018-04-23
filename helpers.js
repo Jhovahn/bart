@@ -2,7 +2,7 @@ let fare = document.querySelector('.fare');
 let origin = document.querySelector('.origin');
 let dest = document.querySelector('.dest');
 
-const url = 'http://api.bart.gov/api/sched.aspx?cmd=fare&orig=';
+const url = 'https://api.bart.gov/api/sched.aspx?cmd=fare&orig=';
 
 function getFares() {
   console.log(
