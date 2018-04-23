@@ -6,7 +6,11 @@ const url = 'http://api.bart.gov/api/sched.aspx?cmd=fare&orig=';
 
 function getFares() {
   console.log(
-    url + origin + '&dest=' + dest + '&date=now&key=MW9S-E7SL-26DU-VV8V&json=y'
+    url +
+      origin.value +
+      '&dest=' +
+      dest.value +
+      '&date=now&key=MW9S-E7SL-26DU-VV8V&json=y'
   );
   axios
     .get(
