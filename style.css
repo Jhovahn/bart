@@ -1,0 +1,14 @@
+#container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#bart {
+  padding: 20px;
+  height: 175px;
+}
+
+#bart :hover {
+  background: url('/img/Bart-logo.svg');
+  height: 300px;
+}
